@@ -13,4 +13,4 @@ Feel free to use, modify, and contribute!
 3. Deploy and customize as needed.
 
 ## Contributing
-If you have improvements or new templates to add, feel free to submit a pull request or open an issue..
+If you have improvements or bug fixes for my containers, feel free to submit a pull request or open an issue.
