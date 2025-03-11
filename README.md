@@ -5,7 +5,7 @@ This repository contains Unraid templates that I've put together for the communi
 Feel free to use, modify, and contribute!
 
 ## Usage (Community Applications)
-1. Search for the container name, and install as normal.
+* Search for the container name, and install as normal.
 
 ## Usage (Manual)
 1. Add the repository URL to your Unraid template repositories.
