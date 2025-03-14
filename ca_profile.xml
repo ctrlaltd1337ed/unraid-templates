@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://github.com/ctrlaltd1337ed/unraid-templates/blob/main/avatar.png</Icon>
+  <Icon>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/avatar.png</Icon>
   <Profile>
     I create Unraid templates for app developers that either don't use Unraid, or don't want to maintain them.
   </Profile>
