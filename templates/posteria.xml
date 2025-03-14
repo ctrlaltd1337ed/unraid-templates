@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>posteria</Name>
+  <Name>Posteria</Name>
   <Repository>bozodev/posteria:latest</Repository>
   <Registry>https://hub.docker.com/r/bozodev/posteria</Registry>
   <Network>bridge</Network>
