@@ -13,7 +13,7 @@
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <Icon>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/logos/recommendarr.png</Icon>
   <Screenshot>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/screenshots/recommendarr-screenshot-1.png</Screenshot>
-  <Requires>To generate TV show recommendations, you need to configure an AI service first.&#xD;
+  <Requires>To generate recommendations, you need to configure an AI service first.&#xD;
 &#xD;
 You can use OpenAI, local models (like Ollama or LM Studio), or any OpenAI-compatible API.</Requires>
   <Config Name="Host Port" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"></Config>
