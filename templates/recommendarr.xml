@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Recommendarr</Name>
+  <Repository>tannermiddleton/recommendarr:latest</Repository>
+  <Registry>https://hub.docker.com/r/tannermiddleton/recommendarr/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/fingerthief/recommendarr/issues</Support>
+  <Project>https://github.com/fingerthief/recommendarr</Project>
+  <Overview>Recommendarr is a web application that generates personalized TV show and movie recommendations based on your Sonarr, Radarr, Plex, and Jellyfin libraries using AI.</Overview>
+  <Category>MediaApp:Other</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <Icon>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/logos/recommendarr.png</Icon>
+  <Requires>To generate TV show recommendations, you need to configure an AI service first.&#xD;
+&#xD;
+You can use OpenAI, local models (like Ollama or LM Studio), or any OpenAI-compatible API.</Requires>
+  <Config Name="Host Port" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Appdata" Target="/app/server/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <TailscaleStateDir/>
+</Container>
