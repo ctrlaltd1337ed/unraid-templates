@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/fingerthief/recommendarr/issues</Support>
+  <Support>https://forums.unraid.net/topic/188012-support-ctrlaltd1337s-unraid-templates/</Support>
   <Project>https://github.com/fingerthief/recommendarr</Project>
   <Overview>Recommendarr is a web application that generates personalized TV show and movie recommendations based on your Sonarr, Radarr, Plex, and Jellyfin libraries using AI.</Overview>
   <Category>MediaApp:Other</Category>
