@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>mazanoke</Name>
+  <Repository>ghcr.io/civilblur/mazanoke:latest</Repository>
+  <Registry>https://github.com/users/civilblur/packages/container/package/mazanoke</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/188012-support-ctrlaltd1337s-unraid-templates/</Support>
+  <Project>https://github.com/civilblur/mazanoke</Project>
+  <Overview>MAZANOKE is a simple image compressor and converter that runs entirely in your browser. No external uploads, works offline as a web app, and is powered by Browser Image Compression.</Overview>
+  <Category>MediaApp:Photos</Category>
+  <WebUI>http://[IP]:[PORT:3474]</WebUI>
+  <Icon>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/logos/mazanoke.png</Icon>
+  <Config Name="Host Port" Target="80" Default="3474" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3474</Config>
+</Container>
