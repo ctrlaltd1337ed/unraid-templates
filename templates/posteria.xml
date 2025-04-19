@@ -17,6 +17,7 @@
   <Config Name="SITE_TITLE" Target="SITE_TITLE" Default="Posteria" Mode="" Description="Website title" Type="Variable" Display="always" Required="false" Mask="false">Posteria</Config>
   <Config Name="AUTH_USERNAME" Target="AUTH_USERNAME" Default="changeme" Mode="" Description="Change this!" Type="Variable" Display="always" Required="false" Mask="false">admin</Config>
   <Config Name="AUTH_PASSWORD" Target="AUTH_PASSWORD" Default="changeme" Mode="" Description="Change this!" Type="Variable" Display="always" Required="false" Mask="false">changeme</Config>
+  <Config Name="AUTH_BYPASS" Target="AUTH_BYPASS" Default="true|false" Mode="" Description="DO NOT USE if you expose Posteria outside your local network" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Config Name="PLEX_SERVER_URL" Target="PLEX_SERVER_URL" Default="PLEXURL" Mode="" Description="URL for your Plex Server" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="PLEX_TOKEN" Target="PLEX_TOKEN" Default="PLEXTOKEN" Mode="" Description="Plex Server Token&#13;&#10;https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Movies Path" Target="/var/www/html/posters/movies" Default="" Mode="rw" Description="Where your movie posters will live on your server" Type="Path" Display="always" Required="true" Mask="false"></Config>
