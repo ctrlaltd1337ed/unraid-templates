@@ -34,7 +34,7 @@
   <Config Name="SESSION_DURATION" Target="SESSION_DURATION" Default="3600" Mode="" Description="Login session duration in seconds" Type="Variable" Display="always" Required="false" Mask="false">3600</Config>
   <Config Name="IMAGES_PER_PAGE" Target="IMAGES_PER_PAGE" Default="24" Mode="" Description="Number of posters displayed per page" Type="Variable" Display="always" Required="false" Mask="false">24</Config>
   <Config Name="MAX_FILE_SIZE" Target="MAX_FILE_SIZE" Default="15728640" Mode="" Description="Maximum upload file size in bytes (default is 15MB)" Type="Variable" Display="always" Required="false" Mask="false">15728640</Config>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
-  <Config Name="PUID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   
 </Container>
