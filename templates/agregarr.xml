@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>agregarr</Name>
+  <Repository>agregarr/agregarr</Repository>
+  <Registry>https://hub.docker.com/r/agregarr/agregarr/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/agregarr/agregarr/</Support>
+  <Project>https://github.com/agregarr/agregarr</Project>
+  <Overview>Agregarr keeps your Plex Home and Recommended fresh by frequently updating it with Collections from various sources, including Trakt, IMDb, TMdb and Letterboxd, as well as generated Collections from Tautulli Statistics, and Overseerr Requests. It has various options for downloading missing media, including as requests through Overseerr. Collections can be reordered on the Home/Recommended and Library tabs independently, and can have time periods or days set for their visibility in Plex.</Overview>
+  <Category>MediaApp:Other</Category>
+  <WebUI>http://[IP]:[PORT:7171]</WebUI>
+  <Icon>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/logos/agregarr.png</Icon>
+  <Screenshot>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/screenshots/agregarr-screenshot-1.png</Screenshot>
+  <Config Name="WebUI" Target="7171" Default="7171" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="true">7171</Config>
+  <Config Name="Appdata" Target="/app/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
+</Container>
