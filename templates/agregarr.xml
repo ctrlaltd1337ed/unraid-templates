@@ -13,7 +13,8 @@
   <WebUI>http://[IP]:[PORT:7171]</WebUI>
   <Icon>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/logos/agregarr.png</Icon>
   <Screenshot>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/screenshots/agregarr-screenshot-1.png</Screenshot>
-  <Config Name="WebUI" Target="7171" Default="7171" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="true">7171</Config>
+  <Config Name="WebUI" Target="7171" Default="7171" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7171</Config>
   <Config Name="Appdata" Target="/app/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
 
 </Container>
+
