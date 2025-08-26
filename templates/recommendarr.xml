@@ -3,6 +3,14 @@
   <Name>Recommendarr</Name>
   <Repository>tannermiddleton/recommendarr:latest</Repository>
   <Registry>https://hub.docker.com/r/tannermiddleton/recommendarr/</Registry>
+  <Branch>
+      <Tag>latest</Tag>
+      <TagDescription>Latest stable release</TagDescription>
+  </Branch>
+  <Branch>
+      <Tag>alpha</Tag>
+      <TagDescription>Expect frequent changes, may be unstable</TagDescription>
+  </Branch>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -20,3 +28,4 @@ You can use OpenAI, local models (like Ollama or LM Studio), or any OpenAI-compa
   <Config Name="Appdata" Target="/app/server/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
   <TailscaleStateDir/>
 </Container>
+
