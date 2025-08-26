@@ -1,8 +1,16 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>agregarr</Name>
-  <Repository>agregarr/agregarr</Repository>
+  <Repository>agregarr/agregarr:latest</Repository>
   <Registry>https://hub.docker.com/r/agregarr/agregarr/</Registry>
+  <Branch>
+      <Tag>latest</Tag>
+      <TagDescription>Latest stable release</TagDescription>
+  </Branch>
+  <Branch>
+      <Tag>develop</Tag>
+      <TagDescription>Expect frequent changes, may be unstable</TagDescription>
+  </Branch>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -17,4 +25,5 @@
   <Config Name="Appdata" Target="/app/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
 
 </Container>
+
 
