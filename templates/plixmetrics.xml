@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>PlixMetrics</Name>
+  <Repository>ghcr.io/plix-labs/plixmetrics:latest</Repository>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/188012-support-ctrlaltd1337s-unraid-templates/</Support>
+  <Project>https://github.com/plix-labs/PlixMetrics</Project>
+  <Overview>A self-hosted, real-time Plex network monitoring dashboard. Track multiple Tautulli instances, visualize streaming activity on a world map, and analyze viewing statistics.</Overview>
+  <Category>MediaApp:Other</Category>
+  <WebUI>http://[IP]:[PORT:8282]</WebUI>
+  <Icon>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/logos/plixmetrics.png</Icon>
+  <Config Name="WebUI" Target="8282" Default="8282" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8282</Config>
+  <Config Name="Appdata" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+</Container>
