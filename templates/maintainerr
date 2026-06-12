@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Maintainerr</Name>
+  <Repository>maintainerr/maintainerr</Repository>
+  <Registry>https://hub.docker.com/r/maintainerr/maintainerr/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Maintainerr/Maintainerr/issues</Support>
+  <Project>https://github.com/Maintainerr/Maintainerr</Project>
+  <Overview>Maintainerr is the janitor your media server doesn't have.&#xD;
+&#xD;
+Libraries fill up. Users request a movie, watch it once, and never touch it again. Half-finished shows sit around for years. And somehow you're the one who has to decide what to delete.&#xD;
+&#xD;
+Maintainerr does the deciding for you. Write rules for the stuff that's just taking up space - unwatched, unrequested, gathering dust - and it gathers those titles into a collection, gives everyone a grace period to catch up, then clears them from your media server, the *arrs and Seerr. Set it up once and forget it. Everything is automated!</Overview>
+  <Category>MediaApp:Video MediaApp:Other</Category>
+  <WebUI>http://[IP]:[PORT:6246]</WebUI>
+  <Icon>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/logos/maintainerr.png</Icon>
+  <Screenshot>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/screenshots/maintainerr-screenshot-1.png</Screenshot>  
+  <ExtraParams>--user 1000:1000</ExtraParams>
+  <Requires>Before starting the container, run the following in the Unraid terminal: chown -R 1000:1000 /path/to/maintainerr/appdata (make sure you use your Maintainerr appdata path!)</Requires>
+  <Config Name="WebUI" Target="6246" Default="6246" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6246</Config>
+  <Config Name="Appdata" Target="/opt/data" Default="/mnt/user/appdata/maintainerr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/maintainerr</Config>
+</Container>
