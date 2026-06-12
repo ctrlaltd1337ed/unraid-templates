@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Maintainerr</Name>
-  <Repository>maintainerr/maintainerr</Repository>
-  <Registry>https://hub.docker.com/r/maintainerr/maintainerr/</Registry>
+  <Repository>ghcr.io/maintainerr/maintainerr:latest</Repository>
+  <Registry>https://github.com/Maintainerr/Maintainerr/pkgs/container/maintainerr</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
