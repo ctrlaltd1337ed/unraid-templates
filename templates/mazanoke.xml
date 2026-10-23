@@ -12,5 +12,6 @@
   <Category>MediaApp:Photos</Category>
   <WebUI>http://[IP]:[PORT:3474]</WebUI>
   <Icon>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/logos/mazanoke.png</Icon>
+  <Screenshot>https://raw.githubusercontent.com/ctrlaltd1337ed/unraid-templates/refs/heads/main/templates/screenshots/mazanoke-screenshot-1.png</Screenshot>
   <Config Name="Host Port" Target="80" Default="3474" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3474</Config>
 </Container>
